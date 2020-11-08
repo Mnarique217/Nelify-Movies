@@ -1,26 +1,50 @@
 data = [
 	{
 		"_id": 1,
-		"rank": 1,
-		"title": "Guardians of the Galaxy",
-		"description": "A group of intergalactic criminals are forced to work together to stop a fanatical warrior from taking control of the universe.",
-		"Director": "Bin Diesel",
-		"Idioma": "Español"
+		"numeroSala": 1,
+		"capacidad": 15,
+		"nombreSala": "Sala 1",
+		"tandas": [
+            {"tanda_id":1,
+			"tanda_name":"Mañana"},
+			{"tanda_id":2,
+				"tanda_name":"Tarde"}
+        ]
 	},
 	{
 		"_id": 2,
-		"rank": 1,
-		"title": "The Great Wall",
-		"description": "Gloria is an out-of-work party girl forced to leave her life in New York City, and move back home. When reports surface that a giant creature is destroying Seoul, she gradually comes to the realization that she is somehow connected to this phenomenon.",
-		"Director": "Bin Diesel",
-		"Idioma": "Ingles"
+		"numeroSala": 1,
+		"capacidad": 15,
+		"nombreSala": "Sala 2",
+		"tandas": [
+            {"tanda_id":1,
+			"tanda_name":"Mañana"},
+			{"tanda_id":2,
+				"tanda_name":"Tarde"}
+        ]
 	},
 	{
 		"_id": 3,
-		"rank": 1,
-		"title": "Fantastic Beasts and Where to Find Them",
-		"description": "The adventures of writer Newt Scamander in New York's secret community of witches and wizards seventy years before Harry Potter reads his book in school.",
-		"Director": "Bin Diesel",
-		"Idioma": "Chino"
+		"numeroSala": 1,
+		"capacidad": 15,
+		"nombreSala": "Sala 3",
+		"tandas": [
+            {"tanda_id":1,
+			"tanda_name":"Mañana"},
+			{"tanda_id":2,
+				"tanda_name":"Tarde"}
+        ]
+	},
+	{
+		"_id": 4,
+		"numeroSala": 1,
+		"capacidad": 15,
+		"nombreSala": "Sala 4",
+		"tandas": [
+            {"tanda_id":1,
+			"tanda_name":"Mañana"},
+			{"tanda_id":2,
+				"tanda_name":"Tarde"}
+        ]
 	}
 ]

@@ -1,31 +1,32 @@
-<h4 style="margin-top: 15px">{{ title }}</h4>
-<h5>Movie Details</h5>
+<h4 style="margin-top: 15px">{{ nombreSala }}</h4>
+<h5>Sala's details</h5>
 <form>
   <div class="row">
-    <div class="six columns">
-       <label for="idInput">Id</label>
+    <div class="four columns">
+       <label for="idInput">ID</label>
        <input class="u-full-width" type="text" id="_id" value="{{ _id }}" readonly/>
     </div>
-    <div class="six columns">
-       <label for="copyrightInput">Rank</label>
-       <input class="u-full-width" type="text" id="copyright" value="{{ rank }}" readonly/>
+    <div class="four columns">
+       <label for="numeroSalaInput">Numero Sala</label>
+       <input class="u-full-width" type="text" id="numeroSala" value="{{ numeroSala }}" readonly/>
     </div>
   </div>
   <div class="row">
-    <div class="six columns">
-       <label for="editionInput">Descripcion</label>
-       <input class="u-full-width" type="text" id="edition" value="{{ description }}" readonly/>
-    </div>
-    <div class="six columns">
-       <label for="editionInput">Director</label>
-       <input class="u-full-width" type="text" id="edition" value="{{ Director }}" readonly/>
+    <div class="four columns">
+       <label for="capacidadInput">Capacidad</label>
+       <input class="u-full-width" type="text" id="capacidad" value="{{ capacidad }}" readonly/>
     </div>
   </div>
-
   <div class="row">
-    <div class="six columns">
-       <label for="editionInput">Idioma</label>
-       <input class="u-full-width" type="text" id="edition" value="{{ Idioma }}" readonly/>
+    <div class="four columns">
+       <label for="nombreInput">Nombre Sala</label>
+       <input class="u-full-width" type="text" id="nombreSala" value="{{ nombreSala }}" readonly/>
     </div>
   </div>
 </form>
+<h5>Associated tandas</h5>
+<ul>
+{{#tandas}}
+  <li><a href="/get?id={{tanda_id}}">{{tanda_name}}</a></li>
+{{/tandas}}
+</ul>
