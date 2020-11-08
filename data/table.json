@@ -3,6 +3,8 @@ data = [
 		"_id": 1,
 		"rank": 1,
 		"title": "Guardians of the Galaxy",
-		"description": "A group of intergalactic criminals are forced to work together to stop a fanatical warrior from taking control of the universe."
+		"description": "A group of intergalactic criminals are forced to work together to stop a fanatical warrior from taking control of the universe.",
+		"Director": "Bin Diesel",
+		"Idioma": "Español"
 	}
 ]
