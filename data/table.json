@@ -12,5 +12,47 @@ data = [
 				"title": "Fantastic Beasts and Where to Find Them"
 			}
 		]
+	},
+	{
+		"_id": 2,
+		"title": "Tanda del Medio Dia",
+		"peliculas": [
+			{
+				"movie_id": 1,
+				"title": "The Great Wall"
+			},
+			{
+				"movie_id": 2,
+				"title": "Fantastic Beasts and Where to Find Them"
+			}
+		]
+	},
+	{
+		"_id": 3,
+		"title": "Tanda de la Tarde",
+		"peliculas": [
+			{
+				"movie_id": 1,
+				"title": "The Great Wall"
+			},
+			{
+				"movie_id": 2,
+				"title": "Fantastic Beasts and Where to Find Them"
+			}
+		]
+	},
+	{
+		"_id": 4,
+		"title": "Tanda de la Noche",
+		"peliculas": [
+			{
+				"movie_id": 1,
+				"title": "The Great Wall"
+			},
+			{
+				"movie_id": 2,
+				"title": "Fantastic Beasts and Where to Find Them"
+			}
+		]
 	}
 ]
