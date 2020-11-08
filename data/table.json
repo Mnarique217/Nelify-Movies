@@ -20,7 +20,31 @@ data = [
 		"rank": 1,
 		"title": "Fantastic Beasts and Where to Find Them",
 		"description": "The adventures of writer Newt Scamander in New York's secret community of witches and wizards seventy years before Harry Potter reads his book in school.",
-		"Director": "Bin Diesel",
+		"Director": "Ridley Scott",
 		"Idioma": "Chino"
+	},
+	{
+		"_id": 4,
+		"rank": 1,
+		"title": "Assassin's Creed",
+		"description": "When Callum Lynch explores the memories of his ancestor Aguilar and gains the skills of a Master Assassin, he discovers he is a descendant of the secret Assassins society.",
+		"Director": "Sean Foley",
+		"Idioma": "Español"
+	},
+	{
+		"_id": 5,
+		"rank": 1,
+		"title": "The Beginning",
+		"description": "A cold-blooded predatory couple while cruising the streets in search of their next victim, will stumble upon a 17-year-old high school girl, who will be sedated, abducted and chained in the strangers' guest room.",
+		"Director": "Bin Diesel",
+		"Idioma": "Español"
+	},
+	{
+		"_id": 6,
+		"rank": 1,
+		"title": "Awake",
+		"description": "A has-been actor best known for playing the title character in the 1980s detective series  must work with the police when a serial killer says that he will only speak with Detective Mindhorn, whom he believes to be a real person.",
+		"Director": "Samuel Jackson",
+		"Idioma": "Aleman"
 	}
 ]
