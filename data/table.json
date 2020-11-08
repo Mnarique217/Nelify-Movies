@@ -6,9 +6,9 @@ data = [
 		"nombreSala": "Sala 1",
 		"tandas": [
             {"tanda_id":1,
-			"tanda_name":"Mañana"},
+			"tanda_name":"Tanda de la Mañana"},
 			{"tanda_id":2,
-				"tanda_name":"Tarde"}
+				"tanda_name":"Tanda del Medio Dia"}
         ]
 	},
 	{
@@ -29,10 +29,10 @@ data = [
 		"capacidad": 15,
 		"nombreSala": "Sala 3",
 		"tandas": [
-            {"tanda_id":1,
-			"tanda_name":"Mañana"},
-			{"tanda_id":2,
-				"tanda_name":"Tarde"}
+            {"tanda_id":3,
+			"tanda_name":"Tanda de la Tarde"},
+			{"tanda_id":4,
+				"tanda_name":"Tanda de la Noche"}
         ]
 	},
 	{
