@@ -2,6 +2,8 @@ data = [
 	{
 		"_id": 1,
 		"title": "Tanda de la Mañana",
+		"hora":"9:00 am",
+		"publico":"PG 13",
 		"peliculas": [
 			{
 				"movie_id": 1,
@@ -16,6 +18,8 @@ data = [
 	{
 		"_id": 2,
 		"title": "Tanda del Medio Dia",
+		"hora":"12:00 pm",
+		"publico":"PG 13",
 		"peliculas": [
 			{
 				"movie_id": 1,
@@ -30,6 +34,8 @@ data = [
 	{
 		"_id": 3,
 		"title": "Tanda de la Tarde",
+		"hora":"3:00 pm",
+		"publico":"Rj-3",
 		"peliculas": [
 			{
 				"movie_id": 1,
@@ -44,6 +50,8 @@ data = [
 	{
 		"_id": 4,
 		"title": "Tanda de la Noche",
+		"hora":"9:00 pm",
+		"publico":"PG 18",
 		"peliculas": [
 			{
 				"movie_id": 1,

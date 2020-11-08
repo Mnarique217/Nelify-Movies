@@ -1,7 +1,19 @@
 <h4 style="margin-top: 15px">{{ title }}</h4>
-<h5>Peliculas:</h5>
-<ul>
-   {{#peliculas}}
-   <li><a href="https://stupefied-wing-0fe434.netlify.app/get/?id={{movie_id}}">{{title}}</li>
-   {{/peliculas}}
-</ul>
+<form>
+   <div class="row">
+      <div class="six columns">
+         <label for="idInput">hora</label>
+         <input class="u-full-width" type="text" id="_id" value="{{ hora }}" readonly />
+      </div>
+      <div class="six columns">
+         <label for="copyrightInput">publico</label>
+         <input class="u-full-width" type="text" id="copyright" value="{{ publico }}" readonly />
+      </div>
+   </div>
+   <h5>Peliculas:</h5>
+   <ul>
+      {{#peliculas}}
+      <li><a href="https://stupefied-wing-0fe434.netlify.app/get/?id={{movie_id}}">{{title}}</li>
+      {{/peliculas}}
+   </ul>
+</form>
