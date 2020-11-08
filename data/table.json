@@ -5,7 +5,13 @@ data = [
 		"title": "Guardians of the Galaxy",
 		"description": "A group of intergalactic criminals are forced to work together to stop a fanatical warrior from taking control of the universe.",
 		"Director": "Bin Diesel",
-		"Idioma": "Español"
+		"Idioma": "Español",
+		"tandas": [
+            {"tanda_id":1,
+			"tanda_name":"Tanda de la Mañana"},
+			{"tanda_id":2,
+				"tanda_name":"Tanda del Medio Dia"}
+        ]
 	},
 	{
 		"_id": 2,
@@ -13,7 +19,13 @@ data = [
 		"title": "The Great Wall",
 		"description": "Gloria is an out-of-work party girl forced to leave her life in New York City, and move back home. When reports surface that a giant creature is destroying Seoul, she gradually comes to the realization that she is somehow connected to this phenomenon.",
 		"Director": "Bin Diesel",
-		"Idioma": "Ingles"
+		"Idioma": "Ingles",
+		"tandas": [
+            {"tanda_id":1,
+			"tanda_name":"Mañana"},
+			{"tanda_id":2,
+				"tanda_name":"Tarde"}
+        ]
 	},
 	{
 		"_id": 3,
@@ -21,7 +33,13 @@ data = [
 		"title": "Fantastic Beasts and Where to Find Them",
 		"description": "The adventures of writer Newt Scamander in New York's secret community of witches and wizards seventy years before Harry Potter reads his book in school.",
 		"Director": "Ridley Scott",
-		"Idioma": "Chino"
+		"Idioma": "Chino",
+		"tandas": [
+            {"tanda_id":3,
+			"tanda_name":"Tanda de la Tarde"},
+			{"tanda_id":4,
+				"tanda_name":"Tanda de la Noche"}
+        ]
 	},
 	{
 		"_id": 4,
@@ -29,7 +47,13 @@ data = [
 		"title": "Assassin's Creed",
 		"description": "When Callum Lynch explores the memories of his ancestor Aguilar and gains the skills of a Master Assassin, he discovers he is a descendant of the secret Assassins society.",
 		"Director": "Sean Foley",
-		"Idioma": "Español"
+		"Idioma": "Español",
+		"tandas": [
+            {"tanda_id":1,
+			"tanda_name":"Mañana"},
+			{"tanda_id":2,
+				"tanda_name":"Tarde"}
+        ]
 	},
 	{
 		"_id": 5,
@@ -37,7 +61,13 @@ data = [
 		"title": "The Beginning",
 		"description": "A cold-blooded predatory couple while cruising the streets in search of their next victim, will stumble upon a 17-year-old high school girl, who will be sedated, abducted and chained in the strangers' guest room.",
 		"Director": "Bin Diesel",
-		"Idioma": "Español"
+		"Idioma": "Español",
+		"tandas": [
+            {"tanda_id":3,
+			"tanda_name":"Tanda de la Tarde"},
+			{"tanda_id":4,
+				"tanda_name":"Tanda de la Noche"}
+        ]
 	},
 	{
 		"_id": 6,
@@ -45,6 +75,12 @@ data = [
 		"title": "Awake",
 		"description": "A has-been actor best known for playing the title character in the 1980s detective series  must work with the police when a serial killer says that he will only speak with Detective Mindhorn, whom he believes to be a real person.",
 		"Director": "Samuel Jackson",
-		"Idioma": "Aleman"
+		"Idioma": "Aleman",
+		"tandas": [
+            {"tanda_id":3,
+			"tanda_name":"Tanda de la Tarde"},
+			{"tanda_id":4,
+				"tanda_name":"Tanda de la Noche"}
+        ]
 	}
 ]
