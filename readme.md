@@ -1,26 +1,9 @@
-# Nelify links Tarea 5
+# Tarea 6
 
-## Home
+El objetivo de esta tarea es modificar el sitio web que fue asignado en la tarea anterior con el fin de utilizar funciones como servicios (FaaS).
 
-```
-https://brave-goodall-821fa0.netlify.app/
-```
+Para ello se debe revisar la práctica de FaaS, crear su propio sitio en Netlify, y modificar el código necesario para implementar el sistema con la información asignada utilizando funciones como servicios. Note que se deben modificar los servicios, los templates, y el menú principal de dicho ejemplo.
 
-## Movies
+Se deben utilizar todos los datos utilizados en la tarea anterior y reutilizar las plantillas que ya fueron diseñadas.
 
-```
-https://musing-einstein-52fbf3.netlify.app/
-get: https://musing-einstein-52fbf3.netlify.app/get/?id=1
-```
-
-## Tandas
-```
-https://agitated-sinoussi-3bba7c.netlify.app/
-get: https://agitated-sinoussi-3bba7c.netlify.app/get/?id=1
-```
-
-## Sala
-```
-https://silly-liskov-20b41f.netlify.app/
-get: https://silly-liskov-20b41f.netlify.app/get/?id=1
-```
+* Fecha de entrega: 19 de noviembre
