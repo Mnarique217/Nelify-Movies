@@ -1,6 +1,6 @@
 function getAll(entity) {
 	fetch('https://laughing-fermi-40664e.netlify.app/api/' + entity)
-	  .then((response) => response.json())
+		.then((response) => response.json())
 		.then((data) => {
 			fetch('/template/list/' + entity + '.html')
 				.then((response) => response.text())
@@ -14,7 +14,7 @@ function getAll(entity) {
 function getById(query, entity) {
 	var params = new URLSearchParams(query);
 	fetch('https://laughing-fermi-40664e.netlify.app/api/' + entity + '/?id=' + params.get('id'))
-	  .then((response) => response.json())
+		.then((response) => response.json())
 		.then((data) => {
 			fetch('/template/detail/' + entity + '.html')
 				.then((response) => response.text())
@@ -37,14 +37,23 @@ function home() {
 function init() {
 	router = new Navigo(null, false, '#!');
 	router.on({
-		'/movies': function() {
+		'/movies': function () {
 			getAll('movies');
 		},
-		'/tanda': function() {
+		'/tanda': function () {
 			getAll('tanda');
 		},
-		'/sala': function() {
+		'/sala': function () {
 			getAll('sala');
+		},
+		'/movieById': function (_, query) {
+			getById(query, 'movies');
+		},
+		'/tandaById': function (_, query) {
+			getById(query, 'tanda');
+		},
+		'/salaById': function (_, query) {
+			getById(query, 'sala');
 		}
 	});
 	router.on(() => home());

@@ -16,7 +16,7 @@ type Tanda struct {
 	Id          int        `json:"_id"`
 	Title       string     `json:"title"`
 	Hora		string     `json:"hora"`
-	Publico     int        `json:"publico"`
+	Publico     string     `json:"publico"`
 	Peliculas   []MovieRef `json:"peliculas"`
 }
 

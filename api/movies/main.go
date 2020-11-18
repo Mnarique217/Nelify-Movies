@@ -15,9 +15,9 @@ type TandaRef struct {
 
 type Movie struct {
 	Id           int       `json:"_id"`
-	Rank         string    `json:"rank"`
+	Rank         int    `json:"rank"`
 	Title		 string    `json:"title"`
-	Description  int       `json:"description"`
+	Description  string       `json:"description"`
 	Director     string    `json:"director"`
 	Idioma       string    `json:"idioma"`
 	Tandas      []TandaRef `json:"tandas"`	
