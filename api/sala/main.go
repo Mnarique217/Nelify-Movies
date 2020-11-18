@@ -15,7 +15,7 @@ type TandaRef struct {
 type Sala struct {
 	Id           int       `json:"_id"`
 	NumeroSala   int    `json:"numeroSala"`
-	Capacidad	 string    `json:"capacidad"`
+	Capacidad	 int    `json:"capacidad"`
 	NombreSala   string    `json:"nombreSala"`
 	Tandas     []TandaRef `json:"tandas"`	
 }
