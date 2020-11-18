@@ -14,7 +14,7 @@ type TandaRef struct {
 
 type Sala struct {
 	Id           int       `json:"_id"`
-	NumeroSala   string    `json:"numeroSala"`
+	NumeroSala   int    `json:"numeroSala"`
 	Capacidad	 string    `json:"capacidad"`
 	NombreSala   string    `json:"nombreSala"`
 	Tandas     []TandaRef `json:"tandas"`	
@@ -38,7 +38,7 @@ var jsonData string = `[
 	},
 	{
 		"_id": 2,
-		"numeroSala": 1,
+		"numeroSala": 2,
 		"capacidad": 15,
 		"nombreSala": "Sala 2",
 		"tandas": [
@@ -50,7 +50,7 @@ var jsonData string = `[
 	},
 	{
 		"_id": 3,
-		"numeroSala": 1,
+		"numeroSala": 3,
 		"capacidad": 15,
 		"nombreSala": "Sala 3",
 		"tandas": [
@@ -62,7 +62,7 @@ var jsonData string = `[
 	},
 	{
 		"_id": 4,
-		"numeroSala": 1,
+		"numeroSala": 4,
 		"capacidad": 15,
 		"nombreSala": "Sala 4",
 		"tandas": [
