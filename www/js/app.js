@@ -1,5 +1,5 @@
 function getAll(entity) {
-	fetch('https://faas-example.netlify.app/api/' + entity)
+	fetch('https://laughing-fermi-40664e.netlify.app/api/' + entity)
 	  .then((response) => response.json())
 		.then((data) => {
 			fetch('/template/list/' + entity + '.html')
@@ -13,7 +13,7 @@ function getAll(entity) {
 
 function getById(query, entity) {
 	var params = new URLSearchParams(query);
-	fetch('https://faas-example.netlify.app/api/' + entity + '/?id=' + params.get('id'))
+	fetch('https://laughing-fermi-40664e.netlify.app/api/' + entity + '/?id=' + params.get('id'))
 	  .then((response) => response.json())
 		.then((data) => {
 			fetch('/template/detail/' + entity + '.html')
@@ -37,23 +37,14 @@ function home() {
 function init() {
 	router = new Navigo(null, false, '#!');
 	router.on({
-		'/books': function() {
-			getAll('books');
+		'/movies': function() {
+			getAll('movies');
 		},
-		'/authors': function() {
-			getAll('authors');
+		'/tanda': function() {
+			getAll('tanda');
 		},
-		'/publishers': function() {
-			getAll('publishers');
-		},
-		'/bookById': function(_, query) {
-			getById(query, 'books');
-		},
-		'/authorById': function(_, query) {
-			getById(query, 'authors');
-		},
-		'/publisherById': function(_, query) {
-			getById(query, 'publishers');
+		'/sala': function() {
+			getAll('sala');
 		}
 	});
 	router.on(() => home());

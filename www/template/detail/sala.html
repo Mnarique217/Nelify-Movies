@@ -1,0 +1,32 @@
+<h4 style="margin-top: 15px">{{ nombreSala }}</h4>
+<h5>Sala's details</h5>
+<form>
+  <div class="row">
+    <div class="four columns">
+       <label for="idInput">ID</label>
+       <input class="u-full-width" type="text" id="_id" value="{{ _id }}" readonly/>
+    </div>
+    <div class="four columns">
+       <label for="numeroSalaInput">Numero Sala</label>
+       <input class="u-full-width" type="text" id="numeroSala" value="{{ numeroSala }}" readonly/>
+    </div>
+  </div>
+  <div class="row">
+    <div class="four columns">
+       <label for="capacidadInput">Capacidad</label>
+       <input class="u-full-width" type="text" id="capacidad" value="{{ capacidad }}" readonly/>
+    </div>
+  </div>
+  <div class="row">
+    <div class="four columns">
+       <label for="nombreInput">Nombre Sala</label>
+       <input class="u-full-width" type="text" id="nombreSala" value="{{ nombreSala }}" readonly/>
+    </div>
+  </div>
+</form>
+<h5>Associated tandas</h5>
+<ul>
+{{#tandas}}
+  <li><a href="https://agitated-sinoussi-3bba7c.netlify.app/get/?id={{tanda_id}}">{{tanda_name}}</a></li>
+{{/tandas}}
+</ul>

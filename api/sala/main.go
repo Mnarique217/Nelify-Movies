@@ -16,7 +16,7 @@ type Sala struct {
 	Id           int       `json:"_id"`
 	NumeroSala   string    `json:"numeroSala"`
 	Capacidad	 string    `json:"capacidad"`
-	NombreSala   int       `json:"nombreSala"`
+	NombreSala   string    `json:"nombreSala"`
 	Tandas     []TandaRef `json:"tandas"`	
 }
 
